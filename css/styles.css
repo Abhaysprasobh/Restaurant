@@ -28,9 +28,9 @@ h1{
 #Gallery{
     color: white;
     font-size: 3rem;
+    margin-right: 7vw;
     text-align: center;
     text-shadow: 1px 2px 4px orange;
-
 }
 
 #Review{
@@ -76,7 +76,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: url('/assets/m1.jpg') no-repeat center center;
+    background-image:url('/assets/m1.jpg');
     background-color: #333;
     background-blend-mode:overlay;
     background-size: cover;
@@ -116,10 +116,6 @@ nav {
     background-color: #e64a19;
 }
 
-
-
-
-
 .menu-button{
     background-color: #ff5722;
     color: #fff;
@@ -129,6 +125,7 @@ nav {
     transition: background-color 0.3s;
     margin-left: 45vw;
 }
+
 .special-dishes {
     background-color:yellowgreen;
     padding: 50px 0;
@@ -156,6 +153,10 @@ nav {
     text-align: center;
     position: relative;
     padding: 10px;
+}
+
+.special-dish-card:hover{
+    transform: scale(1.05);
 }
 
 .special-dish-card img {
@@ -226,6 +227,7 @@ nav {
 /* Special Offers Section */
 .offers {
     margin: 10vh 10vh;
+    padding-left:10vh ;
     background-color:white;
     height: 120vh;
 }
@@ -239,14 +241,8 @@ nav {
     border-radius: 1vh;
 }
 
-img:hover {
+#g1:hover,#g2:hover,#g3:hover,#g4:hover,#g5:hover,#g6:hover,#g7:hover,#g8:hover {
     transform: scale(1.05);
-    margin:5vh;
-    width: 15%;
-    padding: 1vh;
-    border: 2vh solid rgb(255, 123, 0);
-    box-shadow: 1px 2px 4px;
-    border-radius: 1vh;
 }
 
 .testimonials {
