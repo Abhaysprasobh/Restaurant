@@ -76,7 +76,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: url('assets/m1.jpg') no-repeat center center;
+    background: url('/assets/m1.jpg') no-repeat center center;
     background-color: #333;
     background-blend-mode:overlay;
     background-size: cover;
