@@ -33,5 +33,3 @@ document.addEventListener('DOMContentLoaded', function() {
         nextButton.click();
     }, 5000);
 });
-
-
