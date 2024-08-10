@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Restaurant</h1>
+            <p>Delicious food awaits you!</p>
+            <a href="#menu" class="cta-button">See Menu</a>
+        </div>
+    </section>
+
+    <!-- Special Dishes Section -->
+    <section id="special-dishes" class="special-dishes">
+        <h1>Menu</h1>
+        <table class="special-dishes-table">
+            <tr>
+                <td>
+                    <div class="special-dish-card">
+                        <img src="/assets/m5.jpg" alt="Special Dish 1">
+                        <div class="special-dish-details">
+                            <h3>Special Dish 1</h3>
+                            <p>Description of the special dish.</p>
+                            <span>$25.99</span>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="special-dish-card">
+                        <img src="/assets/m6.jpg" alt="Special Dish 2">
+                        <div class="special-dish-details">
+                            <h3>Special Dish 2</h3>
+                            <p>Description of the special dish.</p>
+                            <span>$19.99</span>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="special-dish-card">
+                        <img src="/assets/m7.jpg" alt="Special Dish 3">
+                        <div class="special-dish-details">
+                            <h3>Special Dish 3</h3>
+                            <p>Description of the special dish.</p>
+                            <span>$22.50</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <a href="menu.html" class="menu-button">View Full Menu</a>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="offers" class="offers">
+        <h1 id="Gallery">Gallery</h1>
+        <div class="offer">
+            <img src="/assets/m5.jpg" alt="Dish Name" id="g1" loading="lazy">
+            <img src="/assets/m11.jpg" alt="Dish Name" id="g2" loading="lazy">
+            <img src="/assets/m6.jpg" alt="Dish Name" id="g3" loading="lazy">
+            <img src="/assets/m10.jpeg" alt="Dish Name" id="g4" loading="lazy"><br>
+            <img src="/assets/m9.jpg" alt="Dish Name" id="g5" loading="lazy">
+            <img src="/assets/m8.jpeg" alt="Dish Name" id="g6" loading="lazy">
+            <img src="/assets/m4.jpg" alt="Dish Name" id="g7" loading="lazy">
+            <img src="/assets/m7.jpg" alt="Dish Name" id="g8" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials parallax">
+        <h1 id="Review">Review</h1>
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"This restaurant is an absolute gem! The ambiance is cozy and welcoming, perfect for a dinner date or a family meal. The food was exquisite – the pasta was perfectly cooked, and the flavors were spot-on. The service was outstanding, with the staff making sure every detail was taken care of. I will definitely be returning soon!"</p>
+                        <span>- Emily Carter</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"An unforgettable dining experience! The moment I walked in, I was greeted with warm smiles and a lovely atmosphere. The menu offers a fantastic variety of dishes, all prepared to perfection. I particularly enjoyed the grilled salmon – it was fresh and cooked just right. The dessert was the cherry on top, literally! Highly recommend this place to anyone who loves good food and great service."</p>
+                        <span>- James Anderson</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"What a delightful experience! The restaurant has a charming vibe, and the decor is just beautiful. I tried the chef's special, and it was incredible. The flavors were rich, and the presentation was top-notch. The staff were friendly and attentive, making sure our meal was perfect from start to finish. This has quickly become my favorite spot in town!"</p>
+                        <span>- Sophia Martinez</span>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button prev">&#10094;</button>
+            <button class="carousel-button next">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-info">
+                <h2>WE’RE OPEN:</h2>
+                <p>Monday - Saturday <br> 12pm - 9pm</p>
+                <h3>Hungry?</h3>
+                <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+                <p>500 Terry Francine Street <br> San Francisco, CA 94158</p>
+                <p>Tel: 123-456-7890 <br> Email: info@mysite.com</p>
+            </div>
+            <div class="about-image">
+                <img src="assets/m11.jpg" alt="Decorative Icon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><img src="/assets/i1.png" alt="Facebook"></a>
+            <a href="#"><img src="assets/i2.png" alt="Twitter"></a>
+            <a href="#"><img src="assets/i3.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simpleParallax.js/5.6.2/simpleParallax.min.js"></script>
+</body>
+</html>
